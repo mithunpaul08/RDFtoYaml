@@ -9,6 +9,7 @@ objectProperty = "http://www.w3.org/2002/07/owl#ObjectProperty"
 label = "http://www.w3.org/2000/01/rdf-schema#label"
 appliedTo="AppliedTo"
 onProperty="http://www.w3.org/2002/07/owl#onProperty"
+someValuesFrom="http://www.w3.org/2002/07/owl#someValuesFrom"
 
 
 def create_eidos_ds(g):
@@ -62,8 +63,9 @@ def get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to):
         if(iri in entities.keys()):
             if onProperty in entities[iri].keys():
                 if entities[iri][onProperty][0] == iri_of_applied_to:
-                    #now you have found the
-                    events_objects[iri] = entities[iri][label][0]
+                    #now you have found the object which uses appliedTO. However, this is the leaf. you need to find the node of it.
+                    parent=entities[iri][someValuesFrom]
+                    events_objects[iri] = parent
 
     return events_objects
 
@@ -78,7 +80,7 @@ if __name__ == '__main__':
     g.load('data/rdx/root-ontology.owl')
 
     entities = create_eidos_ds(g)
-    iri_of_applied_to, iri_label=create_iri_label_dict(entities)
+    iri_label_dict, iri_of_applied_to =create_iri_label_dict(entities)
     assert(iri_of_applied_to is not "")
     get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to)
 

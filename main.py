@@ -7,6 +7,8 @@ import utils.ds
 type = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 objectProperty = "http://www.w3.org/2002/07/owl#ObjectProperty"
 label = "http://www.w3.org/2000/01/rdf-schema#label"
+appliedTo="AppliedTo"
+onProperty="http://www.w3.org/2002/07/owl#onProperty"
 
 
 def create_eidos_ds(g):
@@ -39,29 +41,31 @@ def load_rdx(args):
 # create a mapping between each IRI and its corresponding human readable label.
 # eg: {'http://webprotege.stanford.edu/R83IEu3jndUOniyPP4YQAu2': 'Passenger transport services'}
 def create_iri_label_dict(entities):
+    iri_applied_to = ""
     iri_labels = {}
     for iri in entities:
         if(iri in entities.keys()):
             if label in entities[iri].keys():
                 iri_labels[iri] = entities[iri][label][0]
-    return iri_labels
-
-
-#create a dictionary mapping between events and objects via "appliedTo"
-#eg:Assessing is appliedTo Goods
-def get_property_iri_dict(entities):
-    iri_property = {}
-    property_iri = {}
-    for iri in entities:
-        if(iri=="http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"):
-            print(f"iri:{iri}")
-        if(iri in entities.keys()):
             if type in entities[iri].keys():
-                if entities[iri][type][0] == objectProperty:
-                    iri_property[iri] = entities[iri][label][0]
-                    property_iri[entities[iri][label][0]]=iri
+                if entities[iri][type][0] == objectProperty and entities[iri][label][0]==appliedTo:
+                    iri_applied_to=iri
+    return iri_labels,iri_applied_to
 
-    return iri_property,property_iri
+
+#go through the entities and find the events and objects that use  "appliedTo"
+#eg:Assessing is appliedTo Goods
+# sample output:{assesing:[goods, hazards]}
+def get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to):
+    events_objects = {}
+    for iri in entities:
+        if(iri in entities.keys()):
+            if onProperty in entities[iri].keys():
+                if entities[iri][onProperty][0] == iri_of_applied_to:
+                    #now you have found the
+                    events_objects[iri] = entities[iri][label][0]
+
+    return events_objects
 
 if __name__ == '__main__':
 
@@ -74,8 +78,9 @@ if __name__ == '__main__':
     g.load('data/rdx/root-ontology.owl')
 
     entities = create_eidos_ds(g)
-    iri_label=create_iri_label_dict(entities)
-    get_property_iri_dict(entities)
+    iri_of_applied_to, iri_label=create_iri_label_dict(entities)
+    assert(iri_of_applied_to is not "")
+    get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to)
 
 
 

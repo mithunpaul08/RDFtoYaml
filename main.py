@@ -80,16 +80,36 @@ def print_dict(dict_to_print):
 
 def run_sparql_query(g):
     event_obj_for_appliedTo={}
-    res = g.query("""SELECT DISTINCT ?c_lbl ?v_lbl
+    #read from bottom up to understand the query
+    '''
     WHERE {
-    ?r_iri owl:onProperty ?p_iri .
-    ?r_iri rdf:type owl:Restriction .
-    ?r_iri owl:someValuesFrom ?v_iri .
-    ?v_iri rdfs:label ?v_lbl .
-    ?p_iri rdf:type owl:ObjectProperty .
-    ?p_iri rdfs:label "AppliedTo"^^xsd:string .
-    ?c_iri rdfs:subClassOf ?r_iri .
-    ?c_iri rdfs:label ?c_lbl .
+    
+    #for each of the nodes which have label as iri, make sure it has the iri of appliedTo as onProperty 
+    ?restrictions_iri owl:onProperty ?property_iri .
+    ?restrictions_iri rdf:type owl:Restriction .
+    ?restrictions_iri owl:someValuesFrom ?object_iri .
+    ?object_iri rdfs:label ?objects_label .
+    ?property_iri rdf:type owl:ObjectProperty .
+    
+    #get the unique identifier( iri) of all the nodes which have the label as appliedTo  eg:Na2ebb1c6a3b445aca99f9c4fca7c7dff
+    ?property_iri rdfs:label "AppliedTo"^^xsd:string .
+    
+    ?events_iri rdfs:subClassOf ?restrictions_iri .
+    ?events_iri rdfs:label ?events_label .
+    }""")
+    '''
+    res = g.query("""SELECT DISTINCT ?events_label ?objects_label
+    WHERE {
+    
+    ?restrictions_iri owl:onProperty ?property_iri .
+    ?restrictions_iri rdf:type owl:Restriction .
+    ?restrictions_iri owl:someValuesFrom ?object_iri .
+    ?object_iri rdfs:label ?objects_label .
+    ?property_iri rdf:type owl:ObjectProperty .
+    
+    ?property_iri rdfs:label "AppliedTo"^^xsd:string .
+    ?events_iri rdfs:subClassOf ?restrictions_iri .
+    ?events_iri rdfs:label ?events_label .
     }""")
 
     for cls, val in res:

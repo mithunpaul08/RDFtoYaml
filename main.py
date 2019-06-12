@@ -15,7 +15,6 @@ def get_parent_child_sparql(g):
     ?parent_iri rdfs:label ?parent_label
     }""")
     for child,parent in res:
-        print(f"{child} is a child of {parent}")
         child_parent_dict[str(child)] = str(parent)
         parent_child_dict[str(parent)] = str(child)
     return child_parent_dict,parent_child_dict
@@ -23,7 +22,7 @@ def get_parent_child_sparql(g):
 def get_obj_event_appliedTo_sparql(g):
     event_obj_for_appliedTo={}
 
-    #read from bottom up to understand the query
+    #read comments from bottom up to understand the query
     res = g.query("""SELECT DISTINCT ?events_label ?objects_label
     WHERE {
     #for each of the nodes which have label as iri, make sure it has the iri of appliedTo as onProperty 
@@ -48,5 +47,6 @@ def get_obj_event_appliedTo_sparql(g):
 if __name__ == '__main__':
     g = rdflib.Graph()
     g.load('data/rdx/root-ontology.owl')
-    get_parent_child_sparql(g)
     event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)
+    child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
+

@@ -1,9 +1,19 @@
 # RDFtoYaml
 
-the input RDF file must be in `rdf/data/`
+## This code takes an RDF file and converts it to a yml format
+
+
+### Prerequisites:
+- python3
+- pip install rdfextras
+- pip install rdflib
+- the input RDF file must be in `rdf/data/`
+
+### Commands to run the script:
 
 if you run `python main.py` the output will be in example.yml
 
+### Samples
 Here is an example of mapping between events to objects which has the property `appliesTo`:
 ```
 {'Assessing': ['Services', 'Infrastructures', 'Goods', 'Hazards', 'Operations'], 

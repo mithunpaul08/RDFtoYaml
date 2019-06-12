@@ -66,10 +66,23 @@ def ont_node(name, examples, keywords,appliesTo, add_name = True):
     # If selected, make sure the node name is added to the examples to be used for grounding
     if add_name:
         examples.append(name)
-    d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+    if len(appliesTo)>0:
+        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+    else:
+        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0}
     if keywords is not None:
         d['keywords'] = keywords
     return d
+
+#given any child/leaf node, get the complete path of it starting from the top most parent of it
+def get_ancestry(parent, label):
+    if label not in parent:
+        return label
+    node = {label: []}
+    for c in parent[label]:
+        n = get_ancestry(parent, c)
+        node[label].append(n)
+    return node
 
 def make_hierarchy(children, label):
     if label not in children:
@@ -77,7 +90,7 @@ def make_hierarchy(children, label):
             obj_this_event_applies_to=event_obj_for_appliedTo[label]
             return ont_node(label,[],None,obj_this_event_applies_to)
         else:
-            return label
+            return ont_node(label, [], None, [])
     node = {label:[]}
     for c in children[label]:
         n = make_hierarchy(children, c)
@@ -88,12 +101,15 @@ def dump_yaml(data, fn):
     with open(fn, 'w') as yaml_file:
         yaml.dump(data, yaml_file, default_flow_style=False)
 
+
 if __name__ == '__main__':
     yaml.add_representer(type(None), represent_none)
     g = rdflib.Graph()
     g.load('data/rdx/root-ontology.owl')
     event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)
     child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
+    #get_ancestry(child_parent_dict,"Footwear")
+
     data = [
         make_hierarchy(parent_child_dict, 'Events'),
         make_hierarchy(parent_child_dict, 'Objects'),

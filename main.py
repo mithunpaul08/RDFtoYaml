@@ -5,6 +5,17 @@ def print_dict(dict_to_print):
     for k,v in dict_to_print.items():
         print(k,v)
 
+def check_add_to_dict(dict_to_check, key,val):
+    if key in dict_to_check:
+        current_val=dict_to_check[key]
+        current_val.append(val)
+        dict_to_check[key]=current_val
+    else:
+        current_val=[]
+        current_val.append(val)
+        dict_to_check[key] = current_val
+
+
 def get_parent_child_sparql(g):
     child_parent_dict = {}
     parent_child_dict={}
@@ -15,8 +26,9 @@ def get_parent_child_sparql(g):
     ?parent_iri rdfs:label ?parent_label
     }""")
     for child,parent in res:
-        child_parent_dict[str(child)] = str(parent)
-        parent_child_dict[str(parent)] = str(child)
+        print(f"{parent} is a parent of {child}")
+        check_add_to_dict(child_parent_dict,str(child),str(parent))
+        check_add_to_dict(parent_child_dict, str(parent), str(child))
     return child_parent_dict,parent_child_dict
 
 def get_obj_event_appliedTo_sparql(g):
@@ -40,8 +52,8 @@ def get_obj_event_appliedTo_sparql(g):
 
 
     for event, object in res:
-        print(f"{event} is AppliedOn {object}")
-        event_obj_for_appliedTo[str(event)]=str(object)
+        check_add_to_dict(event_obj_for_appliedTo,str(event),str(object))
+        #event_obj_for_appliedTo[str(event)]=str(object)
     return event_obj_for_appliedTo
 
 if __name__ == '__main__':

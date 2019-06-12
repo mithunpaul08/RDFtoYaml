@@ -18,7 +18,6 @@ def create_eidos_ds(g):
         subject = str(subject)
         predicate = str(predicate)
         object = str(object)
-        print(subject, predicate, object)
         if subject in entities:
             dict_labels = entities[subject]
             if predicate in dict_labels.keys():
@@ -64,10 +63,39 @@ def get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to):
             if onProperty in entities[iri].keys():
                 if entities[iri][onProperty][0] == iri_of_applied_to:
                     #now you have found the object which uses appliedTO. However, this is the leaf. you need to find the node of it.
-                    parent=entities[iri][someValuesFrom]
+                    parent=entities[iri][someValuesFrom][0]
+                    #the parent value is the objects/right side of the appliedTo equation
                     events_objects[iri] = parent
-
     return events_objects
+
+#take the iri, find its corresponding label and print it
+def print_kv_human_readable(dict_to_print,iri_label_dict):
+    for k,v in dict_to_print.items():
+        print(iri_label_dict[v])
+
+def print_dict(dict_to_print):
+    for k,v in dict_to_print.items():
+        print(k,v)
+
+
+def run_sparql_query(g):
+    event_obj_for_appliedTo={}
+    res = g.query("""SELECT DISTINCT ?c_lbl ?v_lbl
+    WHERE {
+    ?r_iri owl:onProperty ?p_iri .
+    ?r_iri rdf:type owl:Restriction .
+    ?r_iri owl:someValuesFrom ?v_iri .
+    ?v_iri rdfs:label ?v_lbl .
+    ?p_iri rdf:type owl:ObjectProperty .
+    ?p_iri rdfs:label "AppliedTo"^^xsd:string .
+    ?c_iri rdfs:subClassOf ?r_iri .
+    ?c_iri rdfs:label ?c_lbl .
+    }""")
+
+    for cls, val in res:
+        print(f"{cls} is AppliedOn {val}")
+        event_obj_for_appliedTo[str(cls)]=str(val)
+    return event_obj_for_appliedTo
 
 if __name__ == '__main__':
 
@@ -75,15 +103,13 @@ if __name__ == '__main__':
 
 
     g = rdflib.Graph()
-
     #todo: load filename from command line.
     g.load('data/rdx/root-ontology.owl')
-
     entities = create_eidos_ds(g)
-    iri_label_dict, iri_of_applied_to =create_iri_label_dict(entities)
-    assert(iri_of_applied_to is not "")
-    get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to)
+    event_obj_for_appliedTo=run_sparql_query(g)
 
-
-
-    #print(entities)
+    #print_dict(event_obj_for_appliedTo)
+    # iri_label_dict, iri_of_applied_to =create_iri_label_dict(entities)
+    # assert(iri_of_applied_to is not "")
+    # events_appliedto_objects=get_events_objects_that_uses_appliedTo(entities, iri_of_applied_to)
+    # print_kv_human_readable(events_appliedto_objects,iri_label_dict)

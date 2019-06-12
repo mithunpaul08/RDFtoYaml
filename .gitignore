@@ -1,3 +1,5 @@
+*.yml.swp
+*.swp
 __pycache__
 .DS_Store
 .idea/

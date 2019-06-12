@@ -1,0 +1,3043 @@
+{
+    "http://webprotege.stanford.edu/RuNSsMpBKKDk964NJQiqEB": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Radio campaigns"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7LJK9ibJxxLtmuIlOHUyQx"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Sanitation"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9slpCEUBkXg3n2AiF2U78r": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Research and development services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9FvyGWrCd55sZwz8Jvrndj": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Solid waste disposal"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCDZLDTSaXzgt9IFUENLJwl"
+        ]
+    },
+    "http://webprotege.stanford.edu/RPkQyadnXj2IoViIBNdc9w": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Agriculture, forestry and fishery products"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDgbzpKHSMXSo9GeWDysnbE": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Water safety"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBx2gT8uhhGJFeOM7k2FUgN"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Organizations"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC3O2MCg6dKYuMza1b3Qbuj": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Crude petroleum and natural gas"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCWZGFr8oIaqOr1kBJ7Iyfb": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Real estate services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RmtnB25XcCroPJHihgPjAF": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Solid waste collection"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCDZLDTSaXzgt9IFUENLJwl"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RD1RGHJFRjHj4ACM6N7yxcK": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Field hospital"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7QE8ifP4z1L13waXpkKGnJ": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9M4N6ONGSnoAJ0ZirLafLy"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Environmental management"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCe0y7IGVM29sIhfsYOpfa5": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Health post"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDHUm6LoifyDRVZNUT4mPcQ": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Irrigation scheme"
+        ]
+    },
+    "http://webprotege.stanford.edu/R2BkALcHu1CtCBpij8qmhW": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Petroleum"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCtvdn436HsswgC3g0Sv6DM": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Food products and beverages"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9M4N6ONGSnoAJ0ZirLafLy": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Larval source management"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RRkd7AonL4R1BiPXzQ7tUN": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Ventilated Improved pit latrines"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCCEmyTPVpKfobdC1Mo1dyR": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "IYCF"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R97C6JzvPdW1dxxrNnXJWjg"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCH364kcWQ8PLWCz2vMUpI8": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R79ZOLx8JGZdSZv1cmLxYh9"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Seoncdary"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBDXNLYtyz5lzQC96UB6AK7": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7QE8ifP4z1L13waXpkKGnJ"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Habitat manipulation"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7dpS98917whglqavcimsGk": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "N9a7f7c374de04d3aa19c366ecbecb1bb",
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Training"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Demonstrations",
+            "Capacity building"
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            "Interventions that provide training"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Water infrastructures"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "Nea9e408b452e4f749e3ec03e75d87721": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBh6qjKGQAVPLwkw73OSCov": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Income generation"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCy444TfkTitxVQXlvGxSfr": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "N6b1f00cfd23a4f38864aa6fab202b09c",
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Conserving"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Protecting"
+        ]
+    },
+    "http://webprotege.stanford.edu/Rnyg35dtnNu49SoY2qveKK": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Urgent Care"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9zGW7YbTa3CAdpok1ZhM2j": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Uranium and thorium ores and concentrates Metal ores"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBoFJCwn7T5O9x3naEQq9HY": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Short Term Housing"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8aCOMMHufZBFSYJwLijWzz"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7oicJIe6b1YVz1zeNZtXPs": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8Q5wHbxIAZmMF0AfFGmSuc"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Leaflets"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7Z8MQkgDoOHeYmX9OeiMDM": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Nuclear"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RI8FHFTOpAwXqIp9r7TCpw": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Conducting",
+            "Facilitating",
+            "Carrying out"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn",
+            "Nea9e408b452e4f749e3ec03e75d87721"
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            "Interventions that entail administering certain operations or projects"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Administering"
+        ]
+    },
+    "http://webprotege.stanford.edu/Rrr2kb0l67zLc6TxhmLwak": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Woven and tufted textile fabrics"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7QvuIN7gwlfcIK6LrP2r10": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBoFJCwn7T5O9x3naEQq9HY"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Prefabricated buildings"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "N454f0c34e2744c6185093fef3deeedc9": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCCoJNWhNWcFdTvCGE0jW6": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Domestic services"
+        ]
+    },
+    "http://webprotege.stanford.edu/R77WEpMI79jJrWjjbY8xFkG": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7XUUs3mEopUX5msNREbvLF"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Hand-washing stations"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Ores and minerals"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCxu29aPrufSqYGyXkdCxfN": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7LJK9ibJxxLtmuIlOHUyQx"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Community awareness days"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9a4jAN5jxWdF3hWZd06GdS": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Flush Toilet"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBM36w4PiXYDemtTBGpV3yh": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Human health and social care services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RQHQIrkNxWGNmgph2WjB5g": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Roads"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/RD3EjbDaJimnadKjomUypDn": {
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Giving",
+            "Distribution",
+            "Equipped with",
+            "Handing out",
+            "Transfer"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "Nc7223f8610564d38bd05eb5e16befc23",
+            "Nfe7f223158d54eda86f7e06de6349841",
+            "Ne2291ca21b7d44e0b69be7ca714c9176",
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn",
+            "Na2ebb1c6a3b445aca99f9c4fca7c7dff"
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            "Interventions that entail the provision of certain goods or services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Providing"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/Rt2lBKBSNkq202ip8dlkLo": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Support and operation services to agriculture, hunting, forestry, fishing, mining and utilities"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCZznUefLMFLTJcDXrKOYR1": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Coal and peat"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O"
+        ]
+    },
+    "http://webprotege.stanford.edu/R79lTSP1wThzNwevs1xXcAe": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Radio, television and communication equipment and apparatus"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RChWw6NUCsDR9u5nNdVfsQy": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCDZLDTSaXzgt9IFUENLJwl"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Waste clean-up"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBPYlF0GjEKkE7YQBzXhnRP": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "NGO"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBTHCAh5OBtOCLrVd52SPmF": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Telecommunication"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/RChvwiSU8gZxoOyQDHLIIEp": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7QE8ifP4z1L13waXpkKGnJ"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Habitat modification"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9OEgEauLDxgHDsGzzAVaZq": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Other food products"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCtvdn436HsswgC3g0Sv6DM"
+        ]
+    },
+    "http://webprotege.stanford.edu/R79ZOLx8JGZdSZv1cmLxYh9": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Long-term roads"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RQHQIrkNxWGNmgph2WjB5g"
+        ]
+    },
+    "http://webprotege.stanford.edu/R77N00v7BNmhDZKxPtph6YE": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RQHQIrkNxWGNmgph2WjB5g"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Temporary roads"
+        ]
+    },
+    "http://webprotege.stanford.edu/RB1pPttGo0wwADOGLE0cuGh": {
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            "http://webprotege.stanford.edu/R7dpS98917whglqavcimsGk"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "OnTopic"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDvptZmpcM2LO3Xu0CebXzD": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPkQyadnXj2IoViIBNdc9w"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Products of agriculture, horticulture and market gardening"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Training topics"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCRW62JG5rLZOgUDsbIcLoC": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Unilateral"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBPYlF0GjEKkE7YQBzXhnRP",
+            "http://webprotege.stanford.edu/RiR9YJm7e1Yz92vvbQoB9i"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "N51cf384129914ece8d09c8585e199055": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/RB1pPttGo0wwADOGLE0cuGh"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDRzqUPwwrRa8WgcKiqZLPt": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8odvN1HsHZNVVcUEe21ozT"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Livestock destocking"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R99emtUid6nrIs9lKbrV2OR": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Public health"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCqu9ohf0cAhpAPfBu4MrMX": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Power Generation"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDoAsd5Zzy8QRzNjRgPQWOV": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Office, accounting and computing machinery"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ]
+    },
+    "Nf16d082ff77b4c9e85cdcfd593956cdd": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDxKuFBeA6EEGR4UXoZns92": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Removing"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "N15f413c28f4149c8ab5c0978a3fe2eb0",
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R2GAuQpwzjSVoTG6IHqCYB": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Stone, sand and clay"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDRLvMxMX6nBx6Wojx6iAyb": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RiR9YJm7e1Yz92vvbQoB9i",
+            "http://webprotege.stanford.edu/RBPYlF0GjEKkE7YQBzXhnRP"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Multilateral"
+        ]
+    },
+    "http://webprotege.stanford.edu/R3kzSzJEfBJnA8FubFnAt8": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Impact evaluation"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8xuPe1hA6S4HeVpSwQuV2p": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Yarn and thread"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9ZP3TYrTuB7McMCdeMwFZz": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RiR9YJm7e1Yz92vvbQoB9i",
+            "http://webprotege.stanford.edu/RBPYlF0GjEKkE7YQBzXhnRP"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Bilateral"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R83IEu3jndUOniyPP4YQAu2": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Passenger transport services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDs7CyVwycWrZV21nlHAnvZ"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCZkuOdxiHwPcLUql6ejArH": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Forestry and logging products"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPkQyadnXj2IoViIBNdc9w"
+        ]
+    },
+    "http://webprotege.stanford.edu/RVu8OaVcAWNCBrDyXRXCjm": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Transport equipment"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCCe1rspDj1NYwKh82udopa": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7LJK9ibJxxLtmuIlOHUyQx"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Television campaigns"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCzkZlg8Nu7WJF2C8DsogiU": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Furniture; other transportable goods n.e.c."
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBXCJ7rv2SGy3iUyx0wnUUT": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Doctor's Office"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ]
+    },
+    "http://webprotege.stanford.edu/RynQYGP2btTOVsYGPFwFEh": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Laundry facilities"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7XUUs3mEopUX5msNREbvLF"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RQ9oV4itTnweSeiPYcUE9F": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Textile articles other than apparel"
+        ]
+    },
+    "http://webprotege.stanford.edu/Rm0XfG5ra165AANcKiEafp": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Mines"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDtGQX1GrLfodHXi8OBIFmz"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8eX44sZMeF2Q9dFPOurxze": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Public/Private"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ]
+    },
+    "http://webprotege.stanford.edu/R3Fux6VeWXiqmcg0FZOU6i": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Malnutrition screening"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBM36w4PiXYDemtTBGpV3yh"
+        ]
+    },
+    "http://webprotege.stanford.edu/RB7u73ed6H5cDTvKXo3FZO9": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Basic chemicals"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBBGrT7DyiKQU6lfjDa6UTr": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Products of wood, cork, straw and plaiting materials Pulp, paper and paper products; printed matter and related articles"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7iXp2mwALCZXFTb633puzf": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Other manufacturing services; publishing, printing and reproduction services; materials recovery services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBC1zx3uYi1hZbHdkh8TiRA": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Wastes or scraps"
+        ]
+    },
+    "N15f413c28f4149c8ab5c0978a3fe2eb0": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RDtGQX1GrLfodHXi8OBIFmz"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/RFmbU57w5ZWxc2vP9BIshY": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Electricity, gas and water distribution services"
+        ]
+    },
+    "http://webprotege.stanford.edu/R4Vf413lJJ9rSTrAroDzmE": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Knitted or crocheted fabrics"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RjcgLXdmw9wVqASCU5hM1B": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Shower blocks"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7XUUs3mEopUX5msNREbvLF"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/Rx4cgDYGmXPDmZLYnpkDPw": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Environment"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBZeRmvS9IgFpYS7ZxaQfJG": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Hospital"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC9S48tvWFwR3fk9NfMTaIa": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Education services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8pcCX9UVonjq1EdGaShdhv": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HgIiHPjx7HnsOT3ZRNN8n"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Airport Terminals"
+        ]
+    },
+    "Ncc1693e5938f4852b0a112f3c0949c84": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/RC6YgiZryIkSMHgxtnoK0NM"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd"
+        ]
+    },
+    "http://webprotege.stanford.edu/REIYLlQrRNTs4HZxx92Jjz": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Billboards"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8Q5wHbxIAZmMF0AfFGmSuc"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDE67FMu6r2tODcrWlvNpft": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Hazardous Waste Management"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/Rfdhzd4hBQuRPwW10sOGZa"
+        ]
+    },
+    "http://webprotege.stanford.edu/RdCaNhNCbGPd1dw4uY3cG7": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Recreational, cultural and sporting services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ]
+    },
+    "http://webprotege.stanford.edu/RfR9uQEylu3PBPmA78ie4E": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCtvdn436HsswgC3g0Sv6DM"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Meat, fish, fruits, vegetables, oils and fats"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDHtq4IcQEIWOqDVIMJRmZQ": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Rainwater"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RznPT2wCSWOOchOjwXIh9X": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Meetings",
+            "Community conversations"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Dialogue sessions"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ]
+    },
+    "http://webprotege.stanford.edu/R84WjZ893o6GbDoVeyUx8No": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Hydroelectric Dam"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCaerN328YOGChSOtbe8W89"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "N73cd16bcd5224ae0b365713d52270d35",
+            "http://www.w3.org/2002/07/owl#Thing",
+            "Ncc1693e5938f4852b0a112f3c0949c84"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Events"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBamx224orjMBNsBJ8T3WqZ": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Good hygiene practices"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBx2gT8uhhGJFeOM7k2FUgN"
+        ]
+    },
+    "Ned735d021f9a497f8fa316fd0b5b86e7": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RDtGQX1GrLfodHXi8OBIFmz"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8CLwnJFjlmsvTfz9x4iz58": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Schools"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/R3IL9yFcvXBaaELoLfINPI": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Protecting"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RMuk1XT8K80GqzVQUtZBYs": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HgIiHPjx7HnsOT3ZRNN8n"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Airplane Hangers"
+        ]
+    },
+    "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Private"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8odvN1HsHZNVVcUEe21ozT": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Livestock services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCTCzeMvAUxWMoJMEeG593o": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Public administration and other services provided to the community as a whole"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ]
+    },
+    "http://webprotege.stanford.edu/R97C6JzvPdW1dxxrNnXJWjg": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Good nutrition practices"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ]
+    },
+    "http://webprotege.stanford.edu/RajshKxZpTVyT4gPGzg88W": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Other minerals"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Bridge"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7I5VOXVVeAFvD4CDCa0Dyz": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Surgery Center"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7LJK9ibJxxLtmuIlOHUyQx": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS",
+            "N51cf384129914ece8d09c8585e199055"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Public information campaigns"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R87yR840hWiNiRGudF1vaID": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Partnership"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8LZ968qPOBT1holVhnoML4": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Balanced diet"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCCEmyTPVpKfobdC1Mo1dyR"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RGbq6i5ndS2uNLCDEDmxBh": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Public tap"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCADZkNOr6wH4WwwdP5CqRN": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Protected Spring"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9HWJwobTB1nomttOOuplNn": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RstCiMQlT6H0WwyE8FoRat"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Batteries"
+        ]
+    },
+    "http://webprotege.stanford.edu/R910ileo57ylOpVwg2yi8qu": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Other services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RhuE1L667PAoSUDhHoH94Z": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "FundedBy"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCUsEGpcNfx1HpBOvzprKgC": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Disarmament, demobilization and reintegration? TBC"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7A7UUpNDm8xoSy5wkmnau0": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Professional, technical and business services (except research, development, legal and accounting services) Telecommunications, broadcasting and information supply services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ]
+    },
+    "http://webprotege.stanford.edu/RJvAxDvubExNVZeKddjNrH": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Cantilever Bridge"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Metal products, machinery and equipment"
+        ]
+    },
+    "http://webprotege.stanford.edu/RB0thFIA38Mos628dTv1Ymi": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Human and child rights monitoring"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9kPsrDL2QkiLheqpSxmbPr": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Legal and accounting services"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDduZB0hzGB9H8pHU2K7cwa": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Maintenance, repair and installation (except construction) services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDAovnAxp2jkcF0UJxpph24": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R79ZOLx8JGZdSZv1cmLxYh9"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Primary"
+        ]
+    },
+    "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "AppliedTo"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7jq8ULnSbvBpD3CC96D053": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Solar Electric"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCqu9ohf0cAhpAPfBu4MrMX"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9eIaWAreDNfzDW6rSznsrk": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Glass and glass products and other non-metallic products n.e.c."
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCaerN328YOGChSOtbe8W89": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Potential Energy"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCqu9ohf0cAhpAPfBu4MrMX"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7XUUs3mEopUX5msNREbvLF": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Washing and bathing facilities"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7JZTv4BinEZd9gWZIsu8rV": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Veterinary services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8odvN1HsHZNVVcUEe21ozT"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9e7HRoBGwE6azTdVXUOCZW": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Cooperatives"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC1Z7BEs2ts2YWLeNc2xUOo": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9M4N6ONGSnoAJ0ZirLafLy"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Larviciding"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R5VE4md1HrC8Lt36eHeV52": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Fish and other fishing products"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPkQyadnXj2IoViIBNdc9w"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBaaDTD7dI2dn9Op74NrL0u": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Vocational training"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBh6qjKGQAVPLwkw73OSCov"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCpyCP2rhcUbO9Y1BbuKP2Z": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Cash and vouchers"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCIE22h5vLuVaqxH7exhS9o": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "Nd3c9c905ffc247908bacc54e7bf7c99d",
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Repairing"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9oqrWdfH7x0AUQuxpQ4bjb": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Peacekeeping mission"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RiOgq1vm2L7tN3QYpA8wRE": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Family reunification"
+        ]
+    },
+    "http://webprotege.stanford.edu/RIq5jG2cViLyyxXPGEyreP": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "OfCountry"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDX662JbpvAwKxdEoFyy9zR": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Peacekeeping mandate"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDOmx08M1xuL4xu1T2HQjUW": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "OfLocation"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDs7CyVwycWrZV21nlHAnvZ": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Transport services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "N3ea994b2ece645a49953d33ac01515a2": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "N9a7f7c374de04d3aa19c366ecbecb1bb": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/RB1pPttGo0wwADOGLE0cuGh"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ]
+    },
+    "http://webprotege.stanford.edu/RxzwKO0EgiEBpv5IKOwYTR": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDI2cJ8wotZXy5vhdTQvDA9"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Legal counselling"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7uMgTh23yl4h3rGQMPnGTu": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8Q5wHbxIAZmMF0AfFGmSuc"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Posters"
+        ]
+    },
+    "http://webprotege.stanford.edu/RemAI0GunZIStfvLS8ZKXV": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBx2gT8uhhGJFeOM7k2FUgN"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Latrine use"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8EaPmFr3UtC9O6NkR2ttOU": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Sole Proprietor"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RuX5oo8lmJE0cBD85qDHG5": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Distributive trade services"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Other transportable goods (except metal products, machinery and equipment)"
+        ]
+    },
+    "N0793071a7f014527a9e9561a0a6c37b3": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ]
+    },
+    "http://webprotege.stanford.edu/R93Cnhm2suCES2ZAQeCFAiA": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Building"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Constructing"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "N0793071a7f014527a9e9561a0a6c37b3",
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            "Interventions that entail building or constructing infrastructures"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8lepUeVqHSVW051So3YRbl": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Dam"
+        ]
+    },
+    "http://webprotege.stanford.edu/RXuYFl5do0CCjSf0Zp4Rbc": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Run Ways"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HgIiHPjx7HnsOT3ZRNN8n"
+        ]
+    },
+    "http://webprotege.stanford.edu/RntYFODnr5yy7WpfPw6OQv": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Guardianship and foster parenting"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Commodities"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Goods"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCDS31qI6q8hMOjKbXf8PKH": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Personnel"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ]
+    },
+    "N4e55442773044ce8b84fc1ab89521c3a": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/RIq5jG2cViLyyxXPGEyreP"
+        ],
+        "http://www.w3.org/2002/07/owl#hasValue": [
+            "*Link to Geography ontology countries"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "Na2ebb1c6a3b445aca99f9c4fca7c7dff": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDUkG2mbPqjZHhAznXGRSqh": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Footwear"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ]
+    },
+    "http://webprotege.stanford.edu/RiR9YJm7e1Yz92vvbQoB9i": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd",
+            "N31c25557ac734c04824c446bf5c9e3f7",
+            "N4e55442773044ce8b84fc1ab89521c3a"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Government"
+        ]
+    },
+    "http://webprotege.stanford.edu/R6uUHMZN5nwpTVXpmhUuaC": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCtvdn436HsswgC3g0Sv6DM"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Dairy products and egg products"
+        ]
+    },
+    "Ne2291ca21b7d44e0b69be7ca714c9176": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8lEr1HyJ2fqusppTDEx6pq": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Recycling services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCDZLDTSaXzgt9IFUENLJwl"
+        ]
+    },
+    "http://webprotege.stanford.edu/R87BuIQTagaCs58FhrM32I6": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Live animals and animal products (excluding meat)"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPkQyadnXj2IoViIBNdc9w"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8y0kvxg55JEVkE2Q8LUul1": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDs7CyVwycWrZV21nlHAnvZ"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Postal and courier services"
+        ]
+    },
+    "Nc7223f8610564d38bd05eb5e16befc23": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R7dpS98917whglqavcimsGk"
+        ]
+    },
+    "http://webprotege.stanford.edu/RstCiMQlT6H0WwyE8FoRat": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCqu9ohf0cAhpAPfBu4MrMX"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Chemical Energy"
+        ]
+    },
+    "http://webprotege.stanford.edu/RvoUxseaUEbhuKmMXzK7Pe": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Services of membership organizations"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RSVIalvIIbVEzUl9MCzMcN": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "Nf16d082ff77b4c9e85cdcfd593956cdd",
+            "N39bfb17bb7594048a2c57224295eb2e4",
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn",
+            "N3ea994b2ece645a49953d33ac01515a2",
+            "Ned735d021f9a497f8fa316fd0b5b86e7",
+            "N454f0c34e2744c6185093fef3deeedc9"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Assessing"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Surveying"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8c5ifXa1sny41LAlFa6gMD": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDtGQX1GrLfodHXi8OBIFmz"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Debris"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCDZLDTSaXzgt9IFUENLJwl": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Rental and leasing services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7JUjZxDXyxfpTDigZAzhx8": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Well"
+        ]
+    },
+    "http://webprotege.stanford.edu/Rfdhzd4hBQuRPwW10sOGZa": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Waste Management"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Operations"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ]
+    },
+    "http://webprotege.stanford.edu/RsILUHRBaMqzaH1KOUSQHh": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R97C6JzvPdW1dxxrNnXJWjg"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Malnutrition"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7ULxI7QKYqQNT2mpgS0xXQ": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "School feeding"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC82Bn1e8ymzt1nj0Wo7WAC": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Freight transport services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDs7CyVwycWrZV21nlHAnvZ"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCgy8jizA9KhuPEATEw2l0E": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Pit latrines with a slab"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn"
+        ]
+    },
+    "http://webprotege.stanford.edu/RdvsZxuB0XpWUy6pCwpA2I": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDs7CyVwycWrZV21nlHAnvZ"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Supporting transport services"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9veLXM3BgbroR34BLUBGlI": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Pit Latrine"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9AVOwVe7pvAF1d5tQqvAof": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCqu9ohf0cAhpAPfBu4MrMX"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Wind Energy"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Thermal Energy"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCqu9ohf0cAhpAPfBu4MrMX"
+        ]
+    },
+    "N39bfb17bb7594048a2c57224295eb2e4": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ]
+    },
+    "Nd3c9c905ffc247908bacc54e7bf7c99d": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBSZYzLAeCOT673WTcbEolG": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Railway lines"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Infrastructures"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8zQDv49rghbdA4UHfU9LRr": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Temporary Communal Settlement"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBoFJCwn7T5O9x3naEQq9HY"
+        ]
+    },
+    "http://webprotege.stanford.edu/RyDP2eyQOr6ZY4Ehr9oHmH": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Leather and leather products"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ]
+    },
+    "N6b1f00cfd23a4f38864aa6fab202b09c": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/Rx4cgDYGmXPDmZLYnpkDPw"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCSONpRzhPWDsHyAOS4Inv6": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDI2cJ8wotZXy5vhdTQvDA9"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Legal information programs"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBA3asjr6LkZlXr44xtISn4": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Electrical machinery and apparatus"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDWnjcmZMTUzqJItI4A7UsN": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Sewage and waste collection, treatment and disposal and other environmental protection services"
+        ]
+    },
+    "Nfe7f223158d54eda86f7e06de6349841": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R95cAeNa2Y3RUZKt6oWjAPg"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/RCDS31qI6q8hMOjKbXf8PKH"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8qMfpw2GmumjCqhiF1V2jM": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Franchise"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9zONFXmKoqKMZYpUcHkPGc": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Medical appliances, precision and optical instruments, watches and clocks"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ]
+    },
+    "http://webprotege.stanford.edu/R919gKj23d7wBrKI669Tk79": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Special-purpose machinery"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9HgIiHPjx7HnsOT3ZRNN8n": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Airports"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8fRibAAlIujfeZN83pvZzf": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Maintaining"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9IBGtjFFeNhNq6oZTl283R": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Wastewater Plants"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8aCOMMHufZBFSYJwLijWzz": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Housing"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBojzHelWxCaRrNDko5umTA": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCtvdn436HsswgC3g0Sv6DM"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Beverages"
+        ]
+    },
+    "http://webprotege.stanford.edu/RwTj5alTabIyTqslZgxanw": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Beam Bridge"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Stringer Bridge"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC0g4UfpdLJSIfk4teClKI": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "School attendance"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ]
+    },
+    "http://webprotege.stanford.edu/RRIYTJMf9MU7XBZMhM0ihi": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Conflict mediation"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9YgeR170FpWOavidBIlMQV": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDs7CyVwycWrZV21nlHAnvZ"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Rental services of transport vehicles with operators"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "N31c25557ac734c04824c446bf5c9e3f7": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/R8YGjHWs4ltBlyAYfNZrbWc"
+        ],
+        "http://www.w3.org/2002/07/owl#hasValue": [
+            "Public"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9Ngzw67R11I5Oz9g6xRIrB": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Limited Companies"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDICJcuDdlC7nMqFjVps2tV": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Pest control operation"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8Kd9229knHbflvvid44pXY": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Teaching"
+        ]
+    },
+    "N73cd16bcd5224ae0b365713d52270d35": {
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd"
+        ],
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://webprotege.stanford.edu/RhuE1L667PAoSUDhHoH94Z"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBdcUWGcGxjqE03zGzaQu1U": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Health centre"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7rUb5JRXa4QKKrLT2vQ9MB": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Truss Bridge"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RY1qp4n8g4Wjwpw8SXLXg4"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Health facilities"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8cIe7VKlAjCBvK3S95TDl": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Grain mill products, starches and starch products"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCtvdn436HsswgC3g0Sv6DM"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8WYUXok9CmAeYgYtP4Osy1": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "General-purpose machinery"
+        ]
+    },
+    "http://webprotege.stanford.edu/RhjHWKzpXfb0p63YUumR6G": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Nursing Home"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCVdNNdV5kNVgZaxxxZVMGp"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDHFmGKfmW4xvQXT8rY2wFE": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Indoor residual spraying"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7yVqM1VE1swUhgA3fOssDk": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Other chemical products; man-made fibres"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RP4oyMe1jJB4fc3ldLcG1"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Textiles, apparel and leather products"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Community, social and personal services"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC6YgiZryIkSMHgxtnoK0NM": {
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            "http://webprotege.stanford.edu/RCabGnMKStYdIPNVwbk08Jn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://webprotege.stanford.edu/R7MM8iY7cfQ3Mm6m5OFBhQd"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "ImplementedBy"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7l0RpVcUYtuW4SuWFtoxcJ": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Famine early warning system"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/Rt2lBKBSNkq202ip8dlkLo"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9GRk96xxN4I2a2CaSDQonT": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Compulsory social security services"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RC1pUQHZDTcDunuW7YLd220": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9M4N6ONGSnoAJ0ZirLafLy"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Biological control"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8Q5wHbxIAZmMF0AfFGmSuc": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7LJK9ibJxxLtmuIlOHUyQx"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Communication materials"
+        ]
+    },
+    "http://webprotege.stanford.edu/RB9BakoN1ey3GAwi8gDRIZo": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Fuel Cells"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RstCiMQlT6H0WwyE8FoRat"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBJCkv3DtzYuuCBAEDD8pNV": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Natural Gas"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY"
+        ]
+    },
+    "http://webprotege.stanford.edu/RPhPXmBBm7UDi6JypwBMDY": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Suspension Bridges"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDY3rtFV3oIthuNsWmQoVOL": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Rubber and plastics products"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ]
+    },
+    "http://webprotege.stanford.edu/RMoQ1SlOwgV6dFGT1dFWo2": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Piped Water to a Dwelling"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBx2gT8uhhGJFeOM7k2FUgN": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Good WASH practices"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8Up3b83m7JzHh43KDuOnIU": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Arch Bridge"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDtGQX1GrLfodHXi8OBIFmz": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Hazards"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBOezT9kYlPcazNzN4diEXe": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Support services"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8N0wl6JyWTRuNxmRmDC81e": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Borehole"
+        ]
+    },
+    "http://webprotege.stanford.edu/RD0rtUD89lB6K3dZMsekpKH": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Electricity, town gas, steam and hot water Natural water"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDZQBQCmkZih0NJoDsc0F7O"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDYaYkPc8IYfY6Q3uT8ZPIf": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/Rfdhzd4hBQuRPwW10sOGZa"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Solid Waste Management"
+        ]
+    },
+    "http://webprotege.stanford.edu/RRh8bXz2ATfYAPsgbHSmvW": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Wearing apparel"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RHUCP70XX5ZeudRLReC0oX"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8kYoh9gTk2dC1QhW0P8NLR": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Manufacturing services on physical inputs owned by others"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG"
+        ]
+    },
+    "http://www.w3.org/2004/02/skos/core#altLabel": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    "http://webprotege.stanford.edu/RpVzS8shmfzxEI5n5frJo7": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Geothermal"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RygCJn4TQRQGkyU3BEUYZ1": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7sMGZkmemDRhPIXovmQuZS"
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            "Community scan"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Community assessment"
+        ]
+    },
+    "http://webprotege.stanford.edu/RWj0fEereUwZZjTtglysGP": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RMfynm7PoP04iqcIdRubGh"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Charities"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7leilhoEHWspbQTYQCjEg9": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBqwwSHun7RqCBKO7tRDaJn"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Composting Toilets"
+        ]
+    },
+    "http://webprotege.stanford.edu/RN6v5BsGQyblR72VRG7eKz": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RPT9ZMm5lpCVT1aHQfeetj"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Cable-stayed Bridge"
+        ]
+    },
+    "http://webprotege.stanford.edu/R84L8hxCfQr04fiKNVCEhVk": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Long Term Housing"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8aCOMMHufZBFSYJwLijWzz"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R96aK3zPHVOiJAwxYP0g4iI": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBh6qjKGQAVPLwkw73OSCov"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Financial training"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7RZVLyZjfB4vJYDdbEsaeK": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Fabricated metal products, except machinery and equipment"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDEH8hYhQp1br52jQKgA4jb": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Coke oven products; refined petroleum products; nuclear fuel"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBy0NSHpmmHTuG4CS8vzFzC"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7VFZwgl668MvagLiyixtws": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "ITN use"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9dWopFe5eRUp6fpvsVDXnp": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9HTPref15wjS5uHY3LcPt2"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Basic metals"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8SRA8nJYWrmK3VV30t017W": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDI2cJ8wotZXy5vhdTQvDA9"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Legal aid programs"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDsFlyf7rtdf03LosW1nXb": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Solar Thermal Energy"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDmevkEJQDO5BVm2Yp09EKY": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R79ZOLx8JGZdSZv1cmLxYh9"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Tertiary"
+        ]
+    },
+    "http://purl.org/dc/elements/1.1/description": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8RN7ym8qDAq2Ud5RquiDI5": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Mine risk"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R9AHT3kgrnxMMfkWY7pPvyt"
+        ]
+    },
+    "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://www.w3.org/2002/07/owl#Thing"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Objects"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/R8YGjHWs4ltBlyAYfNZrbWc": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "PublicOrPrivate"
+        ]
+    },
+    "http://webprotege.stanford.edu/RDI2cJ8wotZXy5vhdTQvDA9": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCTjooAvJz9A584RCp7wPVO"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Legal aid for displaced persons"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RZupomj1uVdMSPU0lkhyUG": {
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Business and production services"
+        ]
+    },
+    "http://webprotege.stanford.edu/RBCG2cwgHrYXnyqOxthGLGG": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R7Z4j7xBY8ZJQxV9bjBxs7p"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Services"
+        ]
+    },
+    "http://webprotege.stanford.edu/R9NVigJa9hJCangFfXVuxCx": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Protected Dug Well"
+        ]
+    },
+    "http://webprotege.stanford.edu/RwD1QNpIlpCGU8PvwI4Ztn": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RCCEmyTPVpKfobdC1Mo1dyR"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Breastfeeding"
+        ]
+    },
+    "http://webprotege.stanford.edu/ROj7vpdo72xQpY3woFHoLo": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Piped Water to a Plot"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/RDzYce7iJZyuS9sxaJS0QfU"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    "http://webprotege.stanford.edu/RCwa8ebxLXfrL4SUb3TN94g": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://webprotege.stanford.edu/R8hwfomrT4C6JjFLc13VcmY"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "Coal"
+        ]
+    },
+    "http://webprotege.stanford.edu/project/7NHWtMlQqHWkZ1Z98bDXWE": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Ontology"
+        ]
+    }
+}

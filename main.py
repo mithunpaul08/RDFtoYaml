@@ -78,7 +78,6 @@ def make_hierarchy(children, label):
             return ont_node(label,[],None,obj_this_event_applies_to)
         else:
             return label
-
     node = {label:[]}
     for c in children[label]:
         n = make_hierarchy(children, c)

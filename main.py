@@ -1,4 +1,5 @@
 import rdflib
+import yaml
 
 
 def print_dict(dict_to_print):
@@ -56,9 +57,28 @@ def get_obj_event_appliedTo_sparql(g):
         #event_obj_for_appliedTo[str(event)]=str(object)
     return event_obj_for_appliedTo
 
+def make_hierarchy(children, label):
+    if label not in children:
+        return label
+    node = {label:[]}
+    for c in children[label]:
+        n = make_hierarchy(children, c)
+        node[label].append(n)
+    return node
+
+def dump_yaml(data, fn):
+    with open(fn, 'w') as yaml_file:
+        yaml.dump(data, yaml_file, default_flow_style=False)
+
 if __name__ == '__main__':
     g = rdflib.Graph()
     g.load('data/rdx/root-ontology.owl')
     event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)
     child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
+    data = [
+        make_hierarchy(parent_child_dict, 'Events'),
+        make_hierarchy(parent_child_dict, 'Objects'),
+        make_hierarchy(parent_child_dict, 'Organizations'),
+    ]
+    dump_yaml(data, "example.yml")
 

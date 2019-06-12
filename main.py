@@ -27,7 +27,6 @@ def get_parent_child_sparql(g):
     ?parent_iri rdfs:label ?parent_label
     }""")
     for child,parent in res:
-        print(f"{parent} is a parent of {child}")
         check_add_to_dict(child_parent_dict,str(child),str(parent))
         check_add_to_dict(parent_child_dict, str(parent), str(child))
     return child_parent_dict,parent_child_dict
@@ -57,9 +56,27 @@ def get_obj_event_appliedTo_sparql(g):
         #event_obj_for_appliedTo[str(event)]=str(object)
     return event_obj_for_appliedTo
 
+# Since we seem to want a None for OntologyNode, but don't want to display it :)
+def represent_none(self, _):
+    return self.represent_scalar('tag:yaml.org,2002:null', '')
+
+
+
+def ont_node(name, examples, keywords,appliesTo, add_name = True):
+    # If selected, make sure the node name is added to the examples to be used for grounding
+    if add_name:
+        examples.append(name)
+    d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+    if keywords is not None:
+        d['keywords'] = keywords
+    return d
+
 def make_hierarchy(children, label):
     if label not in children:
-        return label
+        if label in event_obj_for_appliedTo:
+            obj_this_event_applies_to=event_obj_for_appliedTo[label]
+            return ont_node(label,[],None,obj_this_event_applies_to)
+
     node = {label:[]}
     for c in children[label]:
         n = make_hierarchy(children, c)
@@ -71,6 +88,7 @@ def dump_yaml(data, fn):
         yaml.dump(data, yaml_file, default_flow_style=False)
 
 if __name__ == '__main__':
+    yaml.add_representer(type(None), represent_none)
     g = rdflib.Graph()
     g.load('data/rdx/root-ontology.owl')
     event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)

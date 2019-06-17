@@ -76,24 +76,12 @@ def ont_node(name, examples, keywords,appliesTo, add_name = True):
 
 #given any child/leaf node, get the complete path of it starting from the top most parent of it
 
-def make_ancestry(parent_child_dict, label):
+def get_ancestry_tree(parent_child_dict, label):
     if label not in parent_child_dict:
         return label
-    node = []
     for c in parent_child_dict[label]:
-        n = make_ancestry(parent_child_dict, c)
-        n="".join(n)
-        node.append(n)
-    return node
-
-def make_ancestry_dict(parent_child_dict, label):
-    if label not in parent_child_dict:
-        return label
-    node = {label:[]}
-    for c in parent_child_dict[label]:
-        n = make_ancestry(parent_child_dict, c)
-        node[label].append(n)
-    return node
+        n = get_ancestry_tree(parent_child_dict, c) + "/" + label
+    return n
 
 
 def make_hierarchy(parent_child_dict, label):
@@ -120,11 +108,11 @@ if __name__ == '__main__':
     g.load('data/rdx/root-ontology.owl')
     event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)
     child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
-    ancestors=make_ancestry(child_parent_dict,"Footwear")
+    ancestors=get_ancestry_tree(child_parent_dict, "Footwear")
     data = [
         make_hierarchy(parent_child_dict, 'Events'),
         make_hierarchy(parent_child_dict, 'Objects'),
         make_hierarchy(parent_child_dict, 'Organizations'),
     ]
-    dump_yaml(data, "example.yml")
+    dump_yaml(data, "converted_file.yml")
 

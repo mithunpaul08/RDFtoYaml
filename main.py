@@ -62,38 +62,38 @@ def represent_none(self, _):
 
 
 
-def ont_node(name, examples, keywords,appliesTo, add_name = True):
+def ont_node(name, examples, keywords,appliesTo, ancestry_tree, add_name = True):
     # If selected, make sure the node name is added to the examples to be used for grounding
     if add_name:
         examples.append(name)
     if len(appliesTo)>0:
-        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+        d = {'OntologyNode': None, "name": ancestry_tree, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
     else:
-        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0}
+        d = {'OntologyNode': None, "name": ancestry_tree, 'examples': examples, 'polarity': 1.0}
     if keywords is not None:
         d['keywords'] = keywords
     return d
 
-#given any child/leaf node, get the complete path of it starting from the top most parent of it
-
-def get_ancestry_tree(parent_child_dict, label):
-    if label not in parent_child_dict:
+#given any child/leaf node, get the complete path of it starting from the topmost parent of it
+def get_ancestry_tree(child_parent_dict, label):
+    if label not in child_parent_dict:
         return label
-    for c in parent_child_dict[label]:
-        n = get_ancestry_tree(parent_child_dict, c) + "/" + label
+    for c in child_parent_dict[label]:
+        n = get_ancestry_tree(child_parent_dict, c) + "/" + label
     return n
 
 
-def make_hierarchy(parent_child_dict, label):
-    if label not in parent_child_dict:
+def make_hierarchy(parent_child_dict, label,child_parent_dict):
+    if label not in parent_child_dict: #if the label doesn't exist in a parent_child_dict it means its a leaf
+        ancestry_tree = get_ancestry_tree(child_parent_dict,label)
         if label in event_obj_for_appliedTo:
             obj_this_event_applies_to=event_obj_for_appliedTo[label]
-            return ont_node(label,[],None,obj_this_event_applies_to)
+            return ont_node(label,[],None,obj_this_event_applies_to,ancestry_tree)
         else:
-            return ont_node(label, [], None, [])
+            return ont_node(label, [], None, [],ancestry_tree)
     node = {label:[]}
     for c in parent_child_dict[label]:
-        n = make_hierarchy(parent_child_dict, c)
+        n = make_hierarchy(parent_child_dict, c,child_parent_dict)
         node[label].append(n)
     return node
 
@@ -108,11 +108,10 @@ if __name__ == '__main__':
     g.load('data/rdx/root-ontology.owl')
     event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)
     child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
-    ancestors=get_ancestry_tree(child_parent_dict, "Footwear")
     data = [
-        make_hierarchy(parent_child_dict, 'Events'),
-        make_hierarchy(parent_child_dict, 'Objects'),
-        make_hierarchy(parent_child_dict, 'Organizations'),
+        make_hierarchy(parent_child_dict, 'Events',child_parent_dict),
+        make_hierarchy(parent_child_dict, 'Objects',child_parent_dict),
+        make_hierarchy(parent_child_dict, 'Organizations',child_parent_dict),
     ]
     dump_yaml(data, "converted_file.yml")
 

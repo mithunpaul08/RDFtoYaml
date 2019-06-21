@@ -83,6 +83,8 @@ def get_ancestry_tree(child_parent_dict, label):
     return n
 
 
+
+
 def make_hierarchy(parent_child_dict, label,child_parent_dict):
     if label not in parent_child_dict: #if the label doesn't exist in a parent_child_dict it means its a leaf
         ancestry_tree = get_ancestry_tree(child_parent_dict,label)

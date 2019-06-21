@@ -1,10 +1,22 @@
+"""
+This code takes an RDF file (eg:from kimetrica) and converts it into a YAML ontology suitable for usage with Eidos.
+
+Prerequisites:
+    python3, rdfextras,rdflib
+Input:
+    data/rdx/root-ontology.owl
+Usage:
+    python main.py
+
+    Output:
+    will be writen to converted_file.py
+"""
+
+
 import rdflib
 import yaml
 
 
-def print_dict(dict_to_print):
-    for k,v in dict_to_print.items():
-        print(k,v)
 
 def check_add_to_dict(dict_to_check, key,val):
     if key in dict_to_check:
@@ -50,7 +62,6 @@ def get_obj_event_appliedTo_sparql(g,child_parent_dict):
         ?events_iri rdfs:label ?events_label .
     }""")
 
-
     for event, object in res:
         ancestry_tree = get_ancestry_tree(child_parent_dict, str(object))
         check_add_to_dict(event_obj_for_appliedTo,str(event),str(ancestry_tree))
@@ -61,15 +72,14 @@ def represent_none(self, _):
     return self.represent_scalar('tag:yaml.org,2002:null', '')
 
 
-
 def ont_node(name, examples, keywords,appliesTo, add_name = True):
     # If selected, make sure the node name is added to the examples to be used for grounding
     if add_name:
         examples.append(name)
     if len(appliesTo)>0:
-        d = {"name": name, 'OntologyNode': None,  'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+        d = {'OntologyNode': None,"name": name,'examples': examples,    'polarity': 1.0, 'appliedTo':appliesTo}
     else:
-        d = {"name": name,'OntologyNode': None,  'examples': examples, 'polarity': 1.0}
+        d = {'OntologyNode': None, "name": name,'examples': examples,  'polarity': 1.0}
     if keywords is not None:
         d['keywords'] = keywords
     return d
@@ -83,11 +93,9 @@ def get_ancestry_tree(child_parent_dict, label):
     return n
 
 
-
-
 def make_hierarchy(parent_child_dict, label,child_parent_dict):
-    if label not in parent_child_dict: #if the label doesn't exist in a parent_child_dict it means its a leaf
-
+    # if the label doesn't exist in a parent_child_dict it means its a leaf
+    if label not in parent_child_dict:
         if label in event_obj_for_appliedTo:
             obj_this_event_applies_to=event_obj_for_appliedTo[label]
             return ont_node(label,[],None,obj_this_event_applies_to)
@@ -101,8 +109,7 @@ def make_hierarchy(parent_child_dict, label,child_parent_dict):
 
 def dump_yaml(data, fn):
     with open(fn, 'w') as yaml_file:
-        yaml.dump(data, yaml_file, default_flow_style=False)
-
+        yaml.dump(data, yaml_file, default_flow_style=False, sort_keys=False)
 
 if __name__ == '__main__':
     yaml.add_representer(type(None), represent_none)

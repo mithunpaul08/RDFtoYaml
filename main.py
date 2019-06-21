@@ -67,9 +67,9 @@ def ont_node(name, examples, keywords,appliesTo, add_name = True):
     if add_name:
         examples.append(name)
     if len(appliesTo)>0:
-        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+        d = {"name": name, 'OntologyNode': None,  'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
     else:
-        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0}
+        d = {"name": name,'OntologyNode': None,  'examples': examples, 'polarity': 1.0}
     if keywords is not None:
         d['keywords'] = keywords
     return d
@@ -113,10 +113,5 @@ if __name__ == '__main__':
     data = [{"Interventions":[make_hierarchy(parent_child_dict, 'Events',child_parent_dict),
         make_hierarchy(parent_child_dict, 'Objects',child_parent_dict),
         make_hierarchy(parent_child_dict, 'Organizations',child_parent_dict),]}]
-
-    # data = [make_hierarchy(parent_child_dict, 'Events', child_parent_dict),
-    #                           make_hierarchy(parent_child_dict, 'Objects', child_parent_dict),
-    #                           make_hierarchy(parent_child_dict, 'Organizations', child_parent_dict), ]
-
     dump_yaml(data, "converted_file.yml")
 

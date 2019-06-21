@@ -31,7 +31,7 @@ def get_parent_child_sparql(g):
         check_add_to_dict(parent_child_dict, str(parent), str(child))
     return child_parent_dict,parent_child_dict
 
-def get_obj_event_appliedTo_sparql(g):
+def get_obj_event_appliedTo_sparql(g,child_parent_dict):
     event_obj_for_appliedTo={}
 
     #read comments from bottom up to understand the query
@@ -52,8 +52,8 @@ def get_obj_event_appliedTo_sparql(g):
 
 
     for event, object in res:
-        check_add_to_dict(event_obj_for_appliedTo,str(event),str(object))
-        #event_obj_for_appliedTo[str(event)]=str(object)
+        ancestry_tree = get_ancestry_tree(child_parent_dict, str(object))
+        check_add_to_dict(event_obj_for_appliedTo,str(event),str(ancestry_tree))
     return event_obj_for_appliedTo
 
 # Since we seem to want a None for OntologyNode, but don't want to display it :)
@@ -62,14 +62,14 @@ def represent_none(self, _):
 
 
 
-def ont_node(name, examples, keywords,appliesTo, ancestry_tree, add_name = True):
+def ont_node(name, examples, keywords,appliesTo, add_name = True):
     # If selected, make sure the node name is added to the examples to be used for grounding
     if add_name:
         examples.append(name)
     if len(appliesTo)>0:
-        d = {'OntologyNode': None, "name": ancestry_tree, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
+        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0, 'appliedTo':appliesTo}
     else:
-        d = {'OntologyNode': None, "name": ancestry_tree, 'examples': examples, 'polarity': 1.0}
+        d = {'OntologyNode': None, "name": name, 'examples': examples, 'polarity': 1.0}
     if keywords is not None:
         d['keywords'] = keywords
     return d
@@ -87,12 +87,12 @@ def get_ancestry_tree(child_parent_dict, label):
 
 def make_hierarchy(parent_child_dict, label,child_parent_dict):
     if label not in parent_child_dict: #if the label doesn't exist in a parent_child_dict it means its a leaf
-        ancestry_tree = get_ancestry_tree(child_parent_dict,label)
+
         if label in event_obj_for_appliedTo:
             obj_this_event_applies_to=event_obj_for_appliedTo[label]
-            return ont_node(label,[],None,obj_this_event_applies_to,ancestry_tree)
+            return ont_node(label,[],None,obj_this_event_applies_to)
         else:
-            return ont_node(label, [], None, [],ancestry_tree)
+            return ont_node(label, [], None, [])
     node = {label:[]}
     for c in parent_child_dict[label]:
         n = make_hierarchy(parent_child_dict, c,child_parent_dict)
@@ -108,12 +108,15 @@ if __name__ == '__main__':
     yaml.add_representer(type(None), represent_none)
     g = rdflib.Graph()
     g.load('data/rdx/root-ontology.owl')
-    event_obj_for_appliedTo=get_obj_event_appliedTo_sparql(g)
     child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
-    data = [
-        make_hierarchy(parent_child_dict, 'Events',child_parent_dict),
+    event_obj_for_appliedTo = get_obj_event_appliedTo_sparql(g, child_parent_dict)
+    data = [{"Interventions":[make_hierarchy(parent_child_dict, 'Events',child_parent_dict),
         make_hierarchy(parent_child_dict, 'Objects',child_parent_dict),
-        make_hierarchy(parent_child_dict, 'Organizations',child_parent_dict),
-    ]
+        make_hierarchy(parent_child_dict, 'Organizations',child_parent_dict),]}]
+
+    # data = [make_hierarchy(parent_child_dict, 'Events', child_parent_dict),
+    #                           make_hierarchy(parent_child_dict, 'Objects', child_parent_dict),
+    #                           make_hierarchy(parent_child_dict, 'Organizations', child_parent_dict), ]
+
     dump_yaml(data, "converted_file.yml")
 

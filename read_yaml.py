@@ -25,26 +25,6 @@ def get_ancestry_tree(child_parent_dict, label):
         n = get_ancestry_tree(child_parent_dict, c) + "/" + label
     return n
 
-names=[]
-def parse_yaml_get_all_names(k,v):
-    if(k=="name"):
-        names.append(v)
-        return
-    else:
-        if v==None :
-            return
-        elif (type(v) == list):
-                        if len(v) == 0:
-                            return
-                        else :
-                            if not (type(v[0]) == dict):
-                                return
-                            else:
-                                for node in v:
-                                    for (kchild,vchild) in node.items():
-                                            parse_yaml_get_all_names(kchild,vchild)
-
-
 
 
 def find_all_names(data):
@@ -70,11 +50,8 @@ def find_all_names(data):
 stream = open('converted_file.yml', 'r')
 ont_dict=yaml.load(stream)
 
+#go through each of the nodes in yaml dictionary and get all the values where the key is "name"
 names = find_all_names(ont_dict)
-
-#go through each of the nodes in yaml dictionary. Note down all values of the "name" key into a list
-# for key,value in (ont_dict[0].items()):
-#     parse_yaml_get_all_names(key,value)
 print(f"list of name nodes is{names}")
 
 #for each of these values, get its full path

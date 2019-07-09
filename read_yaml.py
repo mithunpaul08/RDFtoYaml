@@ -27,6 +27,7 @@ def get_ancestry_tree(child_parent_dict, label):
 
 
 
+
 def find_all_names(data):
     if type(data) == list:
         names = []
@@ -47,11 +48,34 @@ def find_all_names(data):
                 return find_all_names(v)
 
 
+def find_ancestors(key,data):
+    if type(data) == list:
+        parents = ""
+        for elem in data:
+            parents=parents+"/"+(find_ancestors(key,elem))
+        return parents
+    if type(data) == dict:
+        # am i on a leaf?
+        if 'OntologyNode' in data:
+            # yes, i am in a leaf
+            if 'name' not in data:
+                # all leaves should have name
+                raise Exception('invalid ontology node')
+            return key
+        else:
+            # no, i am not in a leaf
+            for k,v in data.items():
+                return find_ancestors(k,v)
+
+
+
 stream = open('interventions_metadata.yml', 'r')
 ont_dict=yaml.load(stream)
 
 #go through each of the nodes in yaml dictionary and get all the values where the key is "name"
-names = find_all_names(ont_dict)
+#names = find_all_names(ont_dict)
+key=None
+ancestors=find_ancestors(key,ont_dict)
 print(f"list of name nodes is{names}")
 
 #for each of these values, get its full path

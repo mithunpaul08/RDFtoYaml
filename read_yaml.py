@@ -5,7 +5,7 @@ which will then we named as examples for this given name node. All of this will 
 Prerequisites:
     python3
 Input:
-    converted_file.yml
+    interventions_metadata.yml
 Usage:
     python read_yaml.py
 
@@ -47,7 +47,7 @@ def find_all_names(data):
                 return find_all_names(v)
 
 
-stream = open('converted_file.yml', 'r')
+stream = open('interventions_metadata.yml', 'r')
 ont_dict=yaml.load(stream)
 
 #go through each of the nodes in yaml dictionary and get all the values where the key is "name"

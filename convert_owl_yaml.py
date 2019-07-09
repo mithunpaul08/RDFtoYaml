@@ -3,20 +3,36 @@ This code takes an RDF file (eg:from kimetrica) and converts it into a YAML onto
 
 Prerequisites:
     python3, rdfextras,rdflib
-Input:
-    data/rdx/root-ontology.owl
 Usage:
-    python main.py
+     python convert_owl_yaml.py  --input_file [INPUT_FILE] --output_file [OUTPUT_FILE]
+Default Behavior:
+    python convert_owl_yaml.py
 
-    Output:
-    will be writen to converted_file.py
+    (expects input file named as root-ontology.owl  kept at the same level as
+    this script and the output file will be created as interventions_metadata.yml)
+
 """
 
 
 import rdflib
 import yaml
+import argparse
+import sys
 
 
+
+def create_parser():
+    parser = argparse.ArgumentParser(description='Arguments for converting owl to yaml')
+    parser.add_argument('--input_file', type=str, default='root-ontology.owl',
+                        help='the owl file which has to be converted to yaml')
+    parser.add_argument('--output_file', type=str, default='interventions_metadata.yml',
+                        help='name of the converted yaml file')
+
+    return parser
+
+
+def parse_commandline_args():
+    return create_parser().parse_args()
 
 def check_add_to_dict(dict_to_check, key,val):
     if key in dict_to_check:
@@ -93,7 +109,7 @@ def get_ancestry_tree(child_parent_dict, label):
     return n
 
 
-def make_hierarchy(parent_child_dict, label,child_parent_dict):
+def make_hierarchy(parent_child_dict, label,child_parent_dict,event_obj_for_appliedTo):
     # if the label doesn't exist in a parent_child_dict it means its a leaf
     if label not in parent_child_dict:
         if label in event_obj_for_appliedTo:
@@ -103,7 +119,7 @@ def make_hierarchy(parent_child_dict, label,child_parent_dict):
             return ont_node(label, [], None, [])
     node = {label:[]}
     for c in parent_child_dict[label]:
-        n = make_hierarchy(parent_child_dict, c,child_parent_dict)
+        n = make_hierarchy(parent_child_dict, c,child_parent_dict,event_obj_for_appliedTo)
         node[label].append(n)
     return node
 
@@ -111,14 +127,22 @@ def dump_yaml(data, fn):
     with open(fn, 'w') as yaml_file:
         yaml.dump(data, yaml_file, default_flow_style=False, sort_keys=False)
 
-if __name__ == '__main__':
-    yaml.add_representer(type(None), represent_none)
-    g = rdflib.Graph()
-    g.load('data/rdx/root-ontology.owl')
-    child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
-    event_obj_for_appliedTo = get_obj_event_appliedTo_sparql(g, child_parent_dict)
-    data = [{"Interventions":[make_hierarchy(parent_child_dict, 'Events',child_parent_dict),
-        make_hierarchy(parent_child_dict, 'Objects',child_parent_dict),
-        make_hierarchy(parent_child_dict, 'Organizations',child_parent_dict),]}]
-    dump_yaml(data, "converted_file.yml")
 
+
+def main():
+    if len(sys.argv) != 5:
+        print("usage: python convert_owl_yaml.py  --input_file [INPUT_FILE] --output_file [OUTPUT_FILE]")
+    else:
+        args = parse_commandline_args()
+        yaml.add_representer(type(None), represent_none)
+        g = rdflib.Graph()
+        g.load(args.input_file)
+        child_parent_dict, parent_child_dict=get_parent_child_sparql(g)
+        event_obj_for_appliedTo = get_obj_event_appliedTo_sparql(g, child_parent_dict)
+        data = [{"Interventions":[make_hierarchy(parent_child_dict, 'Events',child_parent_dict,event_obj_for_appliedTo),
+            make_hierarchy(parent_child_dict, 'Objects',child_parent_dict,event_obj_for_appliedTo),
+            make_hierarchy(parent_child_dict, 'Organizations',child_parent_dict,event_obj_for_appliedTo),]}]
+        dump_yaml(data, args.output_file)
+
+if __name__ == '__main__':
+    main()
